@@ -46,6 +46,7 @@
             background: rgba(255, 255, 255, 0.9);
             color: #333;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
         }
         .section {
             margin-bottom: 20px;
@@ -60,6 +61,19 @@
         }
         .section ul li {
             margin: 5px 0;
+        }
+        .photo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .photo img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -76,7 +90,7 @@
     </nav>
     <div class="content">
         <div class="photo">
-            <img src="your-photo-url.jpg" alt="Profile Picture">
+            <img src="img/images4.jpg" alt="Profile Picture">
         </div>
         <header>
             <h1>PERSONAL INFORMATION</h1>
